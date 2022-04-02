@@ -1,8 +1,9 @@
+import ReceiptParticles from './ReceiptParticles';
 import './HomePage.css';
 
 function HomePage() {
   return (
-    <div classname="home-page">
+    <div class="home-page">
         <h1 id="website-title">Receipted</h1>
         <form>
             <label> Store Brand:
@@ -20,6 +21,7 @@ function HomePage() {
             <br></br>
             <input type="submit" value="Go!" />
         </form>
+        <ReceiptParticles />
     </div>
   );
 }

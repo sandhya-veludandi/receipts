@@ -1,3 +1,14 @@
-#website-title {
-    color: white; 
+.home-page {    
+    background: white; 
+    width: 50em; 
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+    border: 2px solid black;
+    overflow: hidden; 
 }
+#website-title {
+    color: #86C4FD; 
+}
+
+
