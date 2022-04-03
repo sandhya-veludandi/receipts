@@ -24,6 +24,7 @@ form {
 
 .form-field {
     padding: 0.5em; 
+    height: 3em; 
 }
 
 .form-field input {
@@ -35,10 +36,6 @@ form {
     color: black;
     outline: none;
     transition: all 0.2s;
-}
-
-label {
-    font-size: 2.5em; 
 }
 
 #website-title {
@@ -100,3 +97,62 @@ button:hover {
     cursor: pointer;
 }
 
+@import url("https://fonts.googleapis.com/css?family=Lato");
+.tabs {
+  width: 650px;
+  float: none;
+  list-style: none;
+  position: relative;
+  margin: 10px 0 0 30px;
+  text-align: center;
+}
+.tabs li {
+  float: right;
+  display: block;
+}
+.tabs input[type="radio"] {
+  position: absolute;
+  top: 0;
+  left: -9999px;
+}
+.tabs label {
+  display: block;
+  padding: 14px 21px;
+  border-radius: 2px 2px 0 0;
+  font-size: 20px;
+  font-weight: normal;
+  text-transform: uppercase;
+  background: #cde7fe;
+  cursor: pointer;
+  position: relative;
+  top: 4px;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.tabs label:hover {
+  background: #86C4FD;
+}
+.tabs .tab-content {
+  z-index: 2;
+  display: none;
+  overflow: hidden;
+  width: 100%;
+  font-size: 30px;
+  line-height: 25px;
+  padding: 25px;
+  position: absolute;
+  top: 53px;
+  left: 0;
+  background: white;
+  border: 2px solid #86C4FD;
+}
+.tabs [id^="tab"]:checked + label {
+  top: 0;
+  padding-top: 17px;
+  background: #40a2fc;
+}
+.tabs [id^="tab"]:checked ~ [id^="tab-content"] {
+  display: block;
+}
