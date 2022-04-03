@@ -1,5 +1,6 @@
 import ReceiptParticles from './ReceiptParticles';
 import './HomePage.css';
+import ProductData from './products.json';
 
 function HomePage() {
   return (
@@ -28,6 +29,18 @@ function HomePage() {
                 <button id="submit" type="submit">
                     Go
                 </button>
+                <div className ="results">{
+                ProductData.map(post=> {
+                    return(
+                        <>
+                        <h4>{post.productname}</h4>
+                        <p>{post.store}</p>
+                        </>
+                    )
+                })
+                }
+
+                </div>
                 
             </div>
         </div>
