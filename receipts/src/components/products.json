@@ -1,0 +1,37 @@
+[
+        {
+            "store":    "ShopRite",
+            "productid":    "41716842942",
+            "productname":  "Frigo String Cheese - Light",
+            "receiptname": "FRIGO STRNG CHS LG",
+            "imageurl": "https://storage.googleapis.com/receipted-product-images/frigo_string_cheese_light.jpg"
+        },
+        {
+            "store":    "ShopRite",
+            "productid":    "41190075263",
+            "productname":  "Bowl & Basket Apples Snapdragon",
+            "receiptname": "APPL SNAPDRAGN BAGPC",
+            "imageurl": "https://storage.googleapis.com/receipted-product-images/apple_snapdragon_bag.jpg"
+        },
+        {
+            "store":    "ShopRite",
+            "productid":    "34432",
+            "productname":  "Ruby Frost Apple",
+            "receiptname": "APL RUBY FROST",
+            "imageurl": "https://storage.googleapis.com/receipted-product-images/apple-ruby-frost.jpg"
+        },
+        {
+            "store":    "ShopRite",
+            "productid":    "20735110010",
+            "productname":  "Turkey Hill Premium Ice Cream Original Vanilla",
+            "receiptname": "TH ORIG VANILLA",
+            "imageurl": "https://storage.googleapis.com/receipted-product-images/turkey-hill-ice-cream-original-vanilla.jpg"
+        },
+        {
+            "store":    "ShopRite",
+            "productid":    "22655300441",
+            "productname":  "Applegate Naturals Bacon Hickory Smoked Uncured Turkey",
+            "receiptname": "AG NATU TURKEY BA",
+            "imageurl": "https://storage.googleapis.com/receipted-product-images/applegate-turkey-bacon.jpg"
+        }
+]

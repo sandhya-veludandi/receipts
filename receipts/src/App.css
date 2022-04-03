@@ -2,8 +2,8 @@
 
 html, body, .App, #root {
   margin: 0;
-  height: 100%;
   font-family: 'Share Tech Mono', monospace;
+  min-height: 100%;
 }
 
 body { 
