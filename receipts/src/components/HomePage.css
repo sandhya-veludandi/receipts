@@ -1,14 +1,102 @@
 .home-page {    
-    background: white; 
-    width: 50em; 
+    background: white;
+    align-items: center;
+    width: 50em;
     display: inline-block;
     vertical-align: top;
     height: 100%;
     border: 2px solid black;
-    overflow: hidden; 
-}
-#website-title {
-    color: #86C4FD; 
+    overflow: hidden;
 }
 
+form {
+    height: 7em; 
+}
+
+#stores {
+    height: 3em; 
+    background-color: #f5faff;
+}
+
+#stores:hover {
+    cursor: pointer; 
+}
+
+.form-field {
+    padding: 0.5em; 
+}
+
+.form-field input {
+    border: 1px solid black;
+    background-color: #f5faff;
+    text-align: center;
+    height: 2em; 
+    border-radius: 5px;
+    color: black;
+    outline: none;
+    transition: all 0.2s;
+}
+
+label {
+    font-size: 2.5em; 
+}
+
+#website-title {
+    color: #86C4FD;
+    font-size: 3em;  
+}
+
+a {
+    color: #86C4FD;
+    text-decoration: none;
+    font-weight: bold;
+    outline: none;
+    transition: all 0.2s;
+}
+
+a:hover,
+a:focus {
+    color: #86C4FD;
+    transition: all 0.2s;
+}
+
+.login-card {
+    padding: 32px 32px 0; 
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login-card-content {
+    flex-grow: 2;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-card-footer {
+    padding: 32px 0;
+}
+
+button {
+    background: #86C4FD;
+    text-align: center; 
+    display: block;
+    color: white;
+    border-radius: 5px;
+    padding: 12px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 32px;
+    outline: none;
+    margin: auto; 
+    width: 30%;  
+    border: 1px solid black; 
+}
+
+button:hover {
+    background-color: #f5faff; 
+    color: #86C4FD;
+    cursor: pointer;
+}
 
